@@ -494,16 +494,9 @@ span.dividerContent-2L12VI {
     padding: 2px 3px;
 }
 /* Text Field */
-.form-2fGMdU {
-    border-top: none;
-}
 .scrollableContainer-38zsVD {
-    background-color: transparent;
+  background.color: transparent;
 }
-.attachWrapper-1_D-pj {
-    border-right: none;
-}
-
 /* Links */
 a.anchor-3Z-8Bb.pc-anchor.anchorUnderlineOnHover-2ESHQB.pc-anchorUnderlineOnHover {
     color: var(--accentcolor);
