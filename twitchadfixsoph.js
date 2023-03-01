@@ -1,5 +1,6 @@
 twitch-videoad.js text/javascript
 (function() {
+  if (?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$]) === false ) { return; }
   function setGlobals(scope) {
     scope.TAG = '[Twitch Ad Fix]'
     scope.POTATO = 'aHR0cHM6Ly90d2l0Y2gzMS5iZXlwYXphcmlndXJ1c3Uud29ya2Vycy5kZXY='
