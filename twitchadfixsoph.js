@@ -1,6 +1,5 @@
 twitch-videoad.js text/javascript
 (function() {
-  if ( /(^|\.)destiny\.gg$/.test(document.location.hostname) === false ) { return; }
   function setGlobals(scope) {
     scope.TAG = '[Twitch Ad Fix]'
     scope.POTATO = 'aHR0cHM6Ly90d2l0Y2gzMS5iZXlwYXphcmlndXJ1c3Uud29ya2Vycy5kZXY='
