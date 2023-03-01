@@ -1,21 +1,6 @@
-// ==UserScript==
-// @name            Twitch Ad Fix
-// @description     Buy me a coffee at: https://ko-fi.com/beypazari
-// @contribution    URL https://ko-fi.com/beypazari
-// @version         2.0.1
-// @author          beypazarigurusu
-// @license         MIT
-// @match           https://*.twitch.tv/*
-// @grant           none
-// @run-at          document-start
-// @icon            https://www.google.com/s2/favicons?domain=twitch.tv
-// @namespace https://greasyfork.org/users/925014
-// ==/UserScript==
-
+twitch-videoad.js text/javascript
 (function () {
   if ( /(^|\.)twitch\.tv$/.test(document.location.hostname) === false ) { return; }
-  'use strict'
-
   function setGlobals(scope) {
     scope.TAG = '[Twitch Ad Fix]'
     scope.POTATO = 'aHR0cHM6Ly90d2l0Y2gzMS5iZXlwYXphcmlndXJ1c3Uud29ya2Vycy5kZXY='
